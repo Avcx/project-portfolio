@@ -8,6 +8,24 @@
             "live-link": "",
             "github-link": "",
             "image-urls": ""
+        },
+        {
+            "id": "1",
+            "project_name": "Employee Directory",
+            "description": "This application displays employee data pulled from a server",
+            "technologies": ["HTML", "CSS", "Javascript"],
+            "live-link": "https://avcx.github.io/5-employee-directory/",
+            "github-link": "https://github.com/Avcx/5-employee-directory",
+            "image-urls": ""
+        },
+        {
+            "id": "2",
+            "project_name": "Employee Directory",
+            "description": "This application displays employee data pulled from a server",
+            "technologies": ["HTML", "CSS", "Javascript"],
+            "live-link": "",
+            "github-link": "",
+            "image-urls": ""
         }
     ]
 }

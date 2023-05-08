@@ -1,11 +1,14 @@
 const express = require('express');
 const app = express();
 const mainRoutes = require('./routes/index');
+const projectRoute = require('./routes/projects');
 
 app.set('view engine', 'pug');
 app.use('/static', express.static('./public'));
 
 app.use(mainRoutes);
+app.use('/project', projectRoute);
+
 
 app.use((req, res, next) => {
     const err = new Error('Not Found!');
