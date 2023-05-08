@@ -1,0 +1,13 @@
+{
+    "projects": [
+        {
+            "id": "0",
+            "project_name": "TaskCrush",
+            "description": "A To-do list app with",
+            "technologies": ["HTML", "CSS", "Javascript"],
+            "live-link": "",
+            "github-link": "",
+            "image-urls": ""
+        }
+    ]
+}
