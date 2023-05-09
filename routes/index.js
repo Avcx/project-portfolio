@@ -3,7 +3,9 @@ const router =  express.Router();
 const { projects } = require('../data.json');
 
 router.get('/', (req, res) => {
-    res.render('index', {projects});
+    res.locals.projects = projects;
+    res.locals.image = projects
+    res.render('index');
 })
 
 router.get('/about', (req, res) => {

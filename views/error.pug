@@ -1,0 +1,7 @@
+extends layout.pug 
+
+block content 
+    h3= error.message 
+    p= error.status 
+
+    pre= error.stack

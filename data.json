@@ -2,12 +2,12 @@
     "projects": [
         {
             "id": "0",
-            "project_name": "TaskCrush",
-            "description": "A To-do list app with",
+            "project_name": "Employee Directory",
+            "description": "This application displays employee data pulled from a server",
             "technologies": ["HTML", "CSS", "Javascript"],
-            "live-link": "",
-            "github-link": "",
-            "image-urls": ""
+            "live-link": "https://avcx.github.io/5-employee-directory/",
+            "github-link": "https://github.com/Avcx/5-employee-directory",
+            "image-urls": ["../static/img/employee_directory-550x550.jpeg"]
         },
         {
             "id": "1",
@@ -16,16 +16,16 @@
             "technologies": ["HTML", "CSS", "Javascript"],
             "live-link": "https://avcx.github.io/5-employee-directory/",
             "github-link": "https://github.com/Avcx/5-employee-directory",
-            "image-urls": ""
+            "image-urls": ["../static/img/employee_directory-550x550.jpeg"]
         },
         {
-            "id": "2",
+            "id": "1",
             "project_name": "Employee Directory",
             "description": "This application displays employee data pulled from a server",
             "technologies": ["HTML", "CSS", "Javascript"],
-            "live-link": "",
-            "github-link": "",
-            "image-urls": ""
+            "live-link": "https://avcx.github.io/5-employee-directory/",
+            "github-link": "https://github.com/Avcx/5-employee-directory",
+            "image-urls": ["../static/img/employee_directory-550x550.jpeg"]
         }
     ]
 }
