@@ -12,13 +12,17 @@ app.use('/project', projectRoute);
 
 app.use((req, res, next) => {
     const err = new Error('Not Found!');
-    err.statusCode = 404;
+    err.status = 404;
     next(err);
 })
 
 app.use((err, req, res, next) => {
-
-    res.render('error', {error: err});
+    if (err.status === 404) {
+        res.status(404);
+        res.render('page-not-found', {error: err})
+    } else {
+        res.render('error', {error: err});
+    }
 
 })
 
