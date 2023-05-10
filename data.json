@@ -7,12 +7,12 @@
             "technologies": ["HTML", "CSS", "Javascript"],
             "live_link": "https://avcx.github.io/5-employee-directory/",
             "github_link": "https://github.com/Avcx/5-employee-directory",
-            "image_urls": ["../static/img/employee_directory-550x550.jpeg"]
+            "image_urls": ["../static/img/employee_directory-550x550.jpeg", "../static/img/employee_directory_1-1200x550.jpeg", "../static/img/employee_directory_2-1200x550.jpeg", "../static/img/employee_directory_3-1200x550.jpeg"]
         },
         {
             "id": "1",
             "project_name": "Phrase Hunter",
-            "description": "Ever played wheel of fortune? This game is quite similar. Well... Minus the whole \"winning money\" part of it, but who needs that anyway? In this game you have lives you lose with each wrong guess. Can you successful guess the phrase?",
+            "description": "Ever played wheel of fortune? This game is quite similar. Well... Minus the whole \"winning money\" part of it, but who needs that anyway? In this game you have lives you lose with each wrong guess. Can you successful guess the phrase? This game uses classes to organize the logic of the game.",
             "technologies": ["HTML", "CSS", "Javascript"],
             "live_link": "https://avcx.github.io/4-phrase-hunter-game/",
             "github_link": "https://github.com/Avcx/4-phrase-hunter-game/",
@@ -20,12 +20,12 @@
         },
         {
             "id": "2",
-            "project_name": "Employee Directory",
-            "description": "This application displays employee data pulled from a server",
+            "project_name": "Interactive Form",
+            "description": "Forms are boring. Let's change that. Introducing... an interactive form! This form uses javascript and regex to validate the form fields allowing for more control over what the form accepts.",
             "technologies": ["HTML", "CSS", "Javascript"],
-            "live_link": "https://avcx.github.io/5-employee-directory/",
-            "github_link": "https://github.com/Avcx/5-employee-directory",
-            "image_urls": ["../static/img/employee_directory-550x550.jpeg"]
+            "live_link": "https://avcx.github.io/3-Interactive-Form/",
+            "github_link": "https://github.com/Avcx/3-Interactive-Form",
+            "image_urls": ["../static/img/interactive_form-550x550.jpeg", "../static/img/interactive_form_1-1200x550.jpeg", "../static/img/interactive_form_2-1200x550.jpeg", "../static/img/interactive_form_3-1200x550.jpeg"]
         }
     ]
 }
