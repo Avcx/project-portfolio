@@ -3,14 +3,20 @@ const router =  express.Router();
 const { projects } = require('../data.json');
 
 router.get('/', (req, res) => {
-    res.redirect('/project/0');
+    return res.redirect('/project/0');
 })
 
-router.get('/:id', (req, res) => {
+router.get('/:id', (req, res, next) => {
     const {id} = req.params;
     const project = projects[+id];
-    res.locals.project = project;
-    res.render('project');
+    if (project) {
+        res.locals.project = project;
+        res.render('project');
+    } else {
+        const err = new Error(`There is no project with the id of ${id}...`)
+        err.status = 404;
+        next(err);
+    }
 })
 
 module.exports = router;
