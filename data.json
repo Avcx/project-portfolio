@@ -26,6 +26,24 @@
             "live_link": "https://avcx.github.io/3-Interactive-Form/",
             "github_link": "https://github.com/Avcx/3-Interactive-Form",
             "image_urls": ["../static/img/interactive_form-550x550.jpeg", "../static/img/interactive_form_1-1200x550.jpeg", "../static/img/interactive_form_2-1200x550.jpeg", "../static/img/interactive_form_3-1200x550.jpeg"]
+        },
+        {
+            "id": "3",
+            "project_name": "TaskCrush",
+            "description": "This is a To-do list app that I created. One of the very first project I've ever made in my programming journey. It's very cliche, however, I had a lot of fun creating this app and attemping to make the user experience as optimized as possible.",
+            "technologies": ["HTML", "CSS", "Javascript"],
+            "live_link": "https://avcx.github.io/TaskCrush/",
+            "github_link": "https://github.com/Avcx/TaskCrush",
+            "image_urls": ["../static/img/taskcrush-550x550.jpeg", "../static/img/taskcrush_1-1200x550.jpeg", "../static/img/taskcrush_2-1200x550.jpeg", "../static/img/taskcrush_3-1200x550.jpeg"]
+        },
+        {
+            "id": "4",
+            "project_name": "Random Quote Generator",
+            "description": "An application that generates a random quote, with addition properties. This is a very simple project displaying my knowledge of web development basics.",
+            "technologies": ["HTML", "CSS", "Javascript"],
+            "live_link": "https://avcx.github.io/1-Random-Quote-Generator/",
+            "github_link": "https://github.com/Avcx/1-Random-Quote-Generator",
+            "image_urls": ["../static/img/random_quote_generator-550x550.jpeg", "../static/img/random_quote_generator_1-1200x550.jpeg", "../static/img/random_quote_generator_2-1200x550.jpeg", "../static/img/random_quote_generator_3-1200x550.jpeg"]
         }
     ]
 }
