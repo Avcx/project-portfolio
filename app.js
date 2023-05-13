@@ -8,10 +8,12 @@ const mainRoutes = require('./routes/index');
 const projectRoute = require('./routes/projects');
 
 app.use(mainRoutes);
+app.use('/projects', projectRoute);
 app.use('/project', projectRoute);
 
 app.use((req, res, next) => {
-    const err = new Error('Not Found!');
+    const id = req.originalUrl;
+    const err = new Error(`Cannot find url "${id}"!`);
     err.status = 404;
     next(err);
 })

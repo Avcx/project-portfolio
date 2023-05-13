@@ -1,5 +1,7 @@
 extends layout.pug 
 
-block content 
-    h3 Unfortunately there was an error
-    p= error.status
+block content
+    article.error
+        h1 Unfortunately, there was an error!
+        h3= error.message
+        p Status Code: #{error.status}

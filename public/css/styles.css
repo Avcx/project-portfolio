@@ -247,7 +247,7 @@ nav a span {
   font-size: 13px;
   letter-spacing: 2.25px;
   text-transform: uppercase;
-  color: #2a2929;
+  color: #434141;
   margin: 0 auto 8px;
 }
 
@@ -304,7 +304,7 @@ nav a span {
   Page not found and error page styles
 */
 
-.not-found {
+.not-found, .error{
   text-align: center;
   padding-top: 2em;
 }
