@@ -300,6 +300,15 @@ nav a span {
   border: 1px solid transparent;
 }
 
+/*
+  Page not found and error page styles
+*/
+
+.not-found {
+  text-align: center;
+  padding-top: 2em;
+}
+
 
 /* 
   Tablet layout styles 
