@@ -20,9 +20,11 @@ app.use((req, res, next) => {
 
 app.use((err, req, res, next) => {
     if (err.status === 404) {
+        console.error('Page does not exist!');
         res.status(404);
         res.render('page-not-found', {error: err})
     } else {
+        console.error('There was an unexpected error!');
         res.render('error', {error: err});
     }
 
